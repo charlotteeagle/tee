@@ -1,9 +1,10 @@
 *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-	font-family: 'Space Mono', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, 'Segoe UI', Arial, sans-serif;
+	font-family: 'Space Mono', monospace;
+
 	color: #fff;
-	background: #4133b4;
+	background: #facfd6;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow: auto;
@@ -14,7 +15,7 @@ body {
 
 a {
 	outline: none;
-	color: #f670c8;
+	color: #fc93dd;
 	text-decoration: underline;
 }
 
@@ -39,8 +40,8 @@ main {
 /* Icons */
 .icon {
 	display: block;
-	width: 1.5em;
-	height: 1.5em;
+	width: 2em;
+	height: 2em;
 	margin: 0 auto;
 	fill: currentColor;
 }
@@ -54,7 +55,7 @@ main {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(253,237,98,0.9);
+	background: rgba(253,255,206,0.9);
 	z-index: 100;
 	text-align: center;
 	display: -webkit-flex;
@@ -112,14 +113,27 @@ main {
 }
 
 .codrops-header__title {
-	font-size: 2em;
-	margin: 20px 0 0;
+    position: relative;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+    width: 80%;
+    padding: 0px 0px 0px 20px;
+
 }
 
 .codrops-header__tagline {
 	flex: none;
 	width: 100%;
-	font-size: 1.05em;
+	font-size: 1.5em;
 }
 
 /* Top Navigation Style */
@@ -134,7 +148,7 @@ main {
 	text-align: center;
 	white-space: nowrap;
 	border: 2px solid;
-	margin: 20px 2em 0 0;
+	margin: 20px em 0 0;
 }
 
 .codrops-links::after {
@@ -208,6 +222,7 @@ main {
 
 /* Content */
 .content {
+   
 	position: relative;
 }
 
@@ -282,5 +297,27 @@ main {
 		margin: 0;
 		padding: 0;
 		font-size: 0.65em;
-	}
+
+(".toolgif")({
+  width:400,
+  height:200,
+  speed:200,
+  borderRadius:5,
+  textColor:"initial",
+  gifChange:true }
+}
+    .video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }

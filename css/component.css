@@ -10,67 +10,67 @@
 /* Individual paragraph colors and blend modes */
 
 .content__paragraph--c1 {
-	color: #6ae0fd;
+	color: #89d4f1 ;
 	mix-blend-mode: color-dodge;
 }
 
 .content__paragraph--c2 {
-	color: #3dfb5c;
+	color: #b17ab3 ;
 	mix-blend-mode: exclusion;
 }
 
 .content__paragraph--c3 {
-	color: #feaa48;
+	color: #fff;
 	mix-blend-mode: luminosity;
 }
 
 .content__paragraph--c4 {
-	color: #fb6868;
+	color: #f7931e ;
 	mix-blend-mode: hard-light;
 }
 
 .content__paragraph--c5 {
-	color: #fd5ae8;
+	color: #6cc072 ;
 	mix-blend-mode: luminosity;
 }
 
 .content__paragraph--c6 {
-	color: #7cffe8;
+	color: #f598b1;
 	mix-blend-mode: difference;
 }
 
 .content__paragraph--c7 {
-	color: #e68869;
+	color: #fff;
 	mix-blend-mode: color-dodge;
 }
 
 .content__paragraph--c8 {
-	color: #29fca5;
+	color: #f7931e;
 	mix-blend-mode: exclusion;
 }
 
 .content__paragraph--c9 {
-	color: #c264fe;
+	color: #6cc072;
 	mix-blend-mode: difference;
 }
 
 .content__paragraph--c10 {
-	color: #fc4f84;
+	color: #f598b1;
 	mix-blend-mode: screen;
 }
 
 .content__paragraph--c11 {
-	color: #74e2fd;
+	color: #89d4f1;
 	mix-blend-mode: color-dodge;
 }
 
 .content__paragraph--c12 {
-	color: #1cfb30;
-	mix-blend-mode: color-dodge;
+	color: #b17ab3;
+	
 }
 
 .content__paragraph--c13 {
-	color: #1cfb30;
+	color: #f7931e;
 }
 
 .pop-media {
@@ -177,7 +177,7 @@
 	cursor: default;
 	white-space: nowrap;
 	word-spacing: -0.1em;
-	color: #fded62;
+	color: #fdffce;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
